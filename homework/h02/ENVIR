@@ -1,0 +1,2 @@
+export PATH_ENV=$HOME/env-mlim
+export PATH_REPO=$HOME/repos/mlim

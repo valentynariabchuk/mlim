@@ -1,0 +1,25 @@
+# Tree-based models (Homework 2.3)
+
+In this folder we'll implement a simple solution to homework 2, part 3.
+
+
+## Pipeline
+
+The pipelibe includes the following steps:
+1. Build data 
+1. Produce baseline results
+1. Train the boosted tree model
+1. Benchmark the results
+
+
+## Environment variables
+
+Set the following environment variables before running the pipeline:
+
+| Variable    | Desription                      | Example          |
+| ----------- | ------------------------------- | ---------------- |
+| `PATH_REPO` | path of the repository          | `$HOME/mlim`     |
+| `PATH_ENV`  | path of the virtual environment | `$HOME/env-mlim` |
+
+See file `ENVIR`.
+

@@ -1,0 +1,20 @@
+author: sg
+date: 20-12-2020
+version: 1.0
+path: /private/data/teaching/instacart_exercise_2
+data:
+  O: 10
+  L: [100_000, 3, 5]
+model:
+  objective: binary
+  num_leaves: 125
+  n_estimators: 750
+  min_data_in_leaf: 22
+  metric: auc
+  max_depth: 5
+  max_bin: 390
+  learning_rate: 0.1
+  feature_fraction: 0.4
+  boosting_type: dart
+  bagging_freq: 1
+  bagging_fraction: 0.90
